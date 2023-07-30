@@ -81,7 +81,7 @@ public class Main {
 
     public static void showBill(ArrayList<MenuItems> selectedItems){
         //shows total bill
-        int sum = 0;
+        double sum = 0;
         for (MenuItems item : selectedItems) {
             sum += item.price;
         }
